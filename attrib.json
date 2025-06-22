@@ -1,0 +1,122 @@
+
+    [
+        {
+            "alias": "GHI",
+            "attrib":{
+                    "type": "raster",
+                    "id": "50197",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2024-01-01T09:00:00Z",
+                                "end": "2024-12-31T09:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        },
+        {
+            "alias": "SurfaceElevation",
+            "attrib":{
+                    "type": "raster",
+                    "id": "49506",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2013-01-01T00:00:00Z",
+                                "end": "2013-01-01T23:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        },
+
+        {
+            "alias": "Slope",
+            "attrib":{
+                    "type": "raster",
+                    "id": "50456",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2020-01-01T00:00:00Z",
+                                "end": "2020-01-01T23:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        },
+
+        {
+            "alias": "GroundTemperature",
+            "attrib":{
+                    "type": "raster",
+                    "id": "16100",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2021-06-26T00:00:00Z",
+                                "end": "2021-06-26T23:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        },
+        {
+            "alias": "WindSpeed",
+            "attrib":{
+                    "type": "raster",
+                    "id": "50294",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2021-06-26T00:00:00Z",
+                                "end": "2021-06-26T23:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        },
+        {
+            "alias": "SoilBulkDensity",
+            "attrib":{
+                    "type": "raster",
+                    "id": "50492",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2019-12-05T00:00:00Z",
+                                "end": "2019-12-05T23:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        },
+        {
+            "alias": "SoilCarbon",
+            "attrib":{
+                    "type": "raster",
+                    "id": "50497",
+                    "temporal": {
+                        "intervals": [
+                            {
+                                "start": "2019-12-05T00:00:00Z",
+                                "end": "2019-12-05T23:00:00Z"
+                            }
+                        ]
+                    },
+                    "aggregation": "Mean"
+                }
+        }
+
+
+
+
+
+    ]                
