@@ -1,15 +1,15 @@
 class LinkedList {
     Node head;
 
-    class Node {
-        int data;
-        Node next;
+        class Node {
+            int data;
+            Node next;
 
-        Node(int d) {
-            data = d;
-            next = null;
+            Node(int d) {
+                data = d;
+                next = null;
+            }
         }
-    }
 
     // Add to end
     public void add(int data) {
@@ -154,6 +154,7 @@ class LinkedList {
         temp.next = temp.next.next;
     }
 
+
     // Display list
     public void display() {
         Node temp = head;
@@ -163,6 +164,20 @@ class LinkedList {
         }
         System.out.println("null");
     }
+
+
+    public void deleteWith(int value){
+        Node temp,n;
+        temp = head;
+        while(temp != null){
+            if(temp.next != null && temp.next.data == value){
+                temp.next = temp.next.next;   
+            }
+            temp = temp.next;
+
+        }
+    }
+
 
     // Main method to test
     public static void main(String[] args) {
@@ -179,6 +194,8 @@ class LinkedList {
         list.insertAfterGiven(30,50);
         list.display();
         list.frontadd(500);
+        list.display();
+        list.deleteWith(30);
         list.display();
 /*
         list.addFront(5);
