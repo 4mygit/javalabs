@@ -1,5 +1,15 @@
-class LinkedList {
+class LinkedListWithInnerClass {
     Node head;
+
+        class Node {
+            int data;
+            Node next;
+
+            Node(int d) {
+                data = d;
+                next = null;
+            }
+        }
 
     // Add to end
     public void add(int data) {
