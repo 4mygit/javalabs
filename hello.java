@@ -1,13 +1,8 @@
 public class hello{
     int x = 5;
     public static void main(String[] x){
-        String s = "Hi there";
-        int String = 15;
-        System.out.println("Hello world "+(new hello()).x);
-        System.out.println(String);
-        tiptop ob = new tiptop();
-        ob.test();
-    }
+        System.out.print(x);
+     }
 }
 
 
