@@ -7,6 +7,7 @@ StringWork sw;
         sw = new StringWork();
 
         sw.show();
+        sw.showStringArray();
 
     }
 }
